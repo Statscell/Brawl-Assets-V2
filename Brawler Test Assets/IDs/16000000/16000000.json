@@ -1,0 +1,129 @@
+{
+    "name": "SHELLY",
+    "BrawlerId": 16000000,
+    "BrawlerIconUrl": null,
+    "released": true,
+    "avatarId": 28000003,
+    "AvatarUrl": null,
+    "levels": {
+        "1": {
+            "health-points": 3800,
+            "attack-damage": 1500,
+            "super-damage": 2880
+        },
+        "2": {
+            "health-points": 3990,
+            "attack-damage": 1575,
+            "super-damage": 3024
+        },
+        "3": {
+            "health-points": 4180,
+            "attack-damage": 1650,
+            "super-damage": 3168
+        },
+        "4": {
+            "health-points": 4370,
+            "attack-damage": 1725,
+            "super-damage": 3312
+        },
+        "5": {
+            "health-points": 4560,
+            "attack-damage": 1800,
+            "super-damage": 3456
+        },
+        "6": {
+            "health-points": 4750,
+            "attack-damage": 1875,
+            "super-damage": 3600
+        },
+        "7": {
+            "health-points": 4940,
+            "attack-damage": 1950,
+            "super-damage": 3744
+        },
+        "8": {
+            "health-points": 5130,
+            "attack-damage": 2025,
+            "super-damage": 3888
+        },
+        "9": {
+            "health-points": 5320,
+            "attack-damage": 2100,
+            "super-damage": 4032
+        },
+        "10": {
+            "health-points": 5320,
+            "attack-damage": 2100,
+            "super-damage": 4032
+        }
+    },
+    "info": {
+        "description": "Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!",
+        "class": "Damage Dealer",
+        "rarity": "Starting Brawler",
+        "health": 5320,
+        "Speed": {
+            "tiles": "2.4",
+            "type": "NORMAL"
+        }
+    },
+    "attack": {
+        "name": "BuckShot",
+        "description": "Shelly's boomstick fires a wide spread of pellets to a medium range. The more pellets hit, the greater the damage.",
+        "Damage-Per-Shell": 420,
+        "Shells": 5,
+        "Total-Damage": 2100,
+        "Range": {
+            "tiles": 7.67,
+            "type": "LONG"
+        },
+        "Reload": {
+            "ms": 1500,
+            "type": "NORMAL"
+        },
+        "Duration": 150,
+        "Cooldown": 250
+    },
+    "super": {
+        "name": "Super Shell",
+        "description": "Shelly's Super Shell obliterates both cover and enemies. Any survivors get knocked back.",
+        "Damage-Per-Shell": 448,
+        "Shells": 9,
+        "Total-Damage": 4032,
+        "Range": {
+            "tiles": 7.67,
+            "type": "LONG"
+        },
+        "Duration": 150,
+        "Cooldown": 250
+    },
+    "Gadgets": [
+        {
+            "name": "Fast Forward",
+            "description": "Shelly dashes ahead, skipping a few unnecessary steps!",
+            "Id": 1
+        },
+        {
+            "name": "Clay Pigeons",
+            "description": "On activation, for the next 5 seconds Shelly's main attacks focus the fire to a smaller area with an increased range.",
+            "Id": 1
+        }
+    ],
+    "StarPowers": [
+        {
+            "name": "Shell Shock",
+            "description": "Shelly's Super shells slow down enemies for 4.5 seconds!"
+        },
+        {
+            "name": "Band-Aid",
+            "description": "When Shelly falls below 40% health, she instantly heals for 2000 health. Band-Aid recharges in  seconds."
+        }
+    ],
+    "game-rating": {
+        "offense": 4,
+        "defense": 3,
+        "utility": 2
+    },
+    "skins": [],
+    "emotes": []
+}
